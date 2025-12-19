@@ -1,4 +1,4 @@
-## Learning Data Science with AI-Assisted Education
+## Learning Data Science with AI
 # 🎓 Project Overview
 This repository documents my journey learning data science and machine learning fundamentals through a structured, hands-on approach. Using Claude AI as an interactive learning tool, I'm working through progressive exercises that build toward a comprehensive final project: **Customer Segmentation and Sales Prediction Analysis**
 # 🤖 Learning Methodology
