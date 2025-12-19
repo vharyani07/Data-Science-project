@@ -1,5 +1,5 @@
 ## Learning Data Science with AI
-# 🚧 Ongoing Project — Actively Updated
+## 🚧 Ongoing Project — Actively Updated
 This repository is a continuous, evolving learning project. I update it regularly as I progress through new concepts and complete exercises. Expect frequent additions, improvements, and restructuring as my skills grow and the project matures.
 
 # 🎓 Project Overview
