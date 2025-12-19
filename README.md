@@ -143,39 +143,39 @@ Combining all learned skills into a professional data science project:
 🎯 Learning Objectives
 By the end of this journey, I will be able to:
 
-✅ Manipulate and analyze data using NumPy and Pandas
-✅ Design and query relational databases with SQL
-✅ Create informative data visualizations
-✅ Apply unsupervised learning algorithms (clustering, PCA)
-✅ Build and train neural networks with PyTorch
-✅ Complete an end-to-end data science project
-✅ Write clean, documented, professional code
-✅ Explain my methodology and results
+✅ Manipulate and analyze data using NumPy and Pandas  
+✅ Design and query relational databases with SQL  
+✅ Create informative data visualizations  
+✅ Apply unsupervised learning algorithms (clustering, PCA)  
+✅ Build and train neural networks with PyTorch  
+✅ Complete an end-to-end data science project  
+✅ Write clean, documented, professional code  
+✅ Explain my methodology and results  
 
 # 📂 Repository Structure
-data-science-learning/
-│
-├── README.md                          # This file
-├── modules/
-│   ├── module1_numpy/
-│   │   ├── exercise_1_1.py
-│   │   ├── exercise_1_2.py
-│   │   └── notes.md
-│   ├── module2_pandas/
-│   │   ├── exercise_2_1.py
-│   │   ├── exercise_2_2.py
-│   │   └── notes.md
-│   ├── module3_sql/
-│   ├── module4_visualization/
-│   ├── module5_ml/
-│   └── module6_pytorch/
-│
-├── final_project/
-│   ├── customer_segmentation.ipynb
-│   ├── customer_segmentation.py
-│   ├── README.md
-│   ├── requirements.txt
-│   └── results/
-│       └── visualizations/
-│
-└── learning_log.md                    # Daily progress notes
+data-science-learning/  
+│  
+├── README.md                          # This file  
+├── modules/  
+│   ├── module1_numpy/  
+│   │   ├── exercise_1_1.py  
+│   │   ├── exercise_1_2.py  
+│   │   └── notes.md  
+│   ├── module2_pandas/  
+│   │   ├── exercise_2_1.py  
+│   │   ├── exercise_2_2.py  
+│   │   └── notes.md  
+│   ├── module3_sql/  
+│   ├── module4_visualization/  
+│   ├── module5_ml/  
+│   └── module6_pytorch/  
+│  
+├── final_project/  
+│   ├── customer_segmentation.ipynb  
+│   ├── customer_segmentation.py  
+│   ├── README.md  
+│   ├── requirements.txt  
+│   └── results/  
+│       └── visualizations/  
+│  
+└── learning_log.md                    # Daily progress notes  
