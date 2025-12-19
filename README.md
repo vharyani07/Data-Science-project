@@ -1,22 +1,22 @@
 ## Learning Data Science with AI-Assisted Education
 # 🎓 Project Overview
-This repository documents my journey learning data science and machine learning fundamentals through a structured, hands-on approach. Using Claude AI as an interactive learning tool, I'm working through progressive exercises that build toward a comprehensive final project: Customer Segmentation and Sales Prediction Analysis.
+This repository documents my journey learning data science and machine learning fundamentals through a structured, hands-on approach. Using Claude AI as an interactive learning tool, I'm working through progressive exercises that build toward a comprehensive final project: **Customer Segmentation and Sales Prediction Analysis**
 # 🤖 Learning Methodology
 Why AI-Assisted Learning?
 Rather than passively following tutorials, I'm using Claude AI as:
 
-An interactive instructor that breaks down complex topics into digestible exercises
-A code reviewer that checks my solutions and provides feedback
-A resource that explains concepts when I get stuck
-A guide that ensures I understand fundamentals before moving forward
+* An interactive instructor that breaks down complex topics into digestible exercises
+* A code reviewer that checks my solutions and provides feedback
+* A resource that explains concepts when I get stuck
+* A guide that ensures I understand fundamentals before moving forward
 
 My Approach
 
-Exercise-First Learning: Each concept is introduced through practical exercises with TODO sections I must complete
-Incremental Complexity: Start with basics, gradually build to advanced topics
-Hands-On Practice: Every skill is practiced multiple times before integration
-Active Problem Solving: I write the code myself - no copy-paste learning
-Verification & Feedback: Solutions are reviewed to ensure understanding
+* Exercise-First Learning: Each concept is introduced through practical exercises with TODO sections I must complete
+* Incremental Complexity: Start with basics, gradually build to advanced topics
+* Hands-On Practice: Every skill is practiced multiple times before integration
+* Active Problem Solving: I write the code myself - no copy-paste learning
+* Verification & Feedback: Solutions are reviewed to ensure understanding
 
 # 📚 Topics Covered
 # Module 1: NumPy Fundamentals
