@@ -1,4 +1,7 @@
 ## Learning Data Science with AI
+# 🚧 Ongoing Project — Actively Updated
+This repository is a continuous, evolving learning project. I update it regularly as I progress through new concepts and complete exercises. Expect frequent additions, improvements, and restructuring as my skills grow and the project matures.
+
 # 🎓 Project Overview
 This repository documents my journey learning data science and machine learning fundamentals through a structured, hands-on approach. Using **Claude AI** as an interactive learning tool, I'm working through progressive exercises that build toward a comprehensive final project: **Customer Segmentation and Sales Prediction Analysis**
 # 🤖 Learning Methodology
