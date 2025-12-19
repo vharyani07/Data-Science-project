@@ -1,10 +1,10 @@
-## Learning Data Science with AI
+# Learning Data Science with AI
 ## 🚧 Ongoing Project — Actively Updated
 This repository is a continuous, evolving learning project. I update it regularly as I progress through new concepts and complete exercises. Expect frequent additions, improvements, and restructuring as my skills grow and the project matures.
 
-# 🎓 Project Overview
+## 🎓 Project Overview
 This repository documents my journey learning data science and machine learning fundamentals through a structured, hands-on approach. Using **Claude AI** as an interactive learning tool, I'm working through progressive exercises that build toward a comprehensive final project: **Customer Segmentation and Sales Prediction Analysis**
-# 🤖 Learning Methodology
+## 🤖 Learning Methodology
 Why AI-Assisted Learning?  
 Rather than passively following tutorials, I'm using Claude AI as:
 
@@ -21,8 +21,8 @@ My Approach
 * Active Problem Solving: I write the code myself - no copy-paste learning
 * Verification & Feedback: Solutions are reviewed to ensure understanding
 
-# 📚 Topics Covered
-# Module 1: NumPy Fundamentals
+## 📚 Topics Covered
+## Module 1: NumPy Fundamentals
 Skills Covered:
 
 * Array creation and manipulation
@@ -38,7 +38,7 @@ Exercises:
 
 Key Takeaway: NumPy is the foundation for numerical computing in Python and essential for understanding how data flows through ML models.
 
-# Module 2: Pandas for Data Manipulation
+## Module 2: Pandas for Data Manipulation
 Skills Covered:
 
 * DataFrame creation and manipulation
@@ -56,7 +56,7 @@ Exercises:
 
 Key Takeaway: Pandas is the workhorse of data analysis - master groupby and merge operations for real-world data tasks.
 
-# Module 3: SQL Database Integration
+## Module 3: SQL Database Integration
 Skills Covered:
 
 * SQLite database creation and management
@@ -74,7 +74,7 @@ Exercises:
 
 Key Takeaway: SQL is essential for data analysis. Even with Pandas, SQL knowledge makes you more versatile and valuable.
 
-# Module 4: Data Visualization
+## Module 4: Data Visualization
 Skills Covered:
 
 * Matplotlib basics (line plots, scatter plots, bar charts)
@@ -91,7 +91,7 @@ Exercises:
 
 Key Takeaway: Good visualizations communicate insights effectively. Learn to choose the right chart for your data story.
 
-# Module 5: Machine Learning with Scikit-learn
+## Module 5: Machine Learning with Scikit-learn
 Skills Covered:
 
 * Data preprocessing with StandardScaler
@@ -109,7 +109,7 @@ Exercises:
 
 Key Takeaway: Unsupervised learning reveals hidden patterns in data. Clustering and PCA are fundamental tools for exploratory analysis.
 
-# Module 6: Neural Networks with PyTorch
+## Module 6: Neural Networks with PyTorch
 Skills Covered:
 
 * PyTorch tensor operations
@@ -128,7 +128,7 @@ Exercises:
 
 Key Takeaway: Deep learning with PyTorch provides powerful tools for complex predictions. Understanding the training loop is fundamental.
 
-# Module 7: Final Integration Project
+## Module 7: Final Integration Project
 Comprehensive Application:
 Combining all learned skills into a professional data science project:
 
