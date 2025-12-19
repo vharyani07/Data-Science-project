@@ -1,8 +1,7 @@
-# Data-Science-project
-Learning Data Science with AI-Assisted Education
-🎓 Project Overview
+## Learning Data Science with AI-Assisted Education
+# 🎓 Project Overview
 This repository documents my journey learning data science and machine learning fundamentals through a structured, hands-on approach. Using Claude AI as an interactive learning tool, I'm working through progressive exercises that build toward a comprehensive final project: Customer Segmentation and Sales Prediction Analysis.
-🤖 Learning Methodology
+# 🤖 Learning Methodology
 Why AI-Assisted Learning?
 Rather than passively following tutorials, I'm using Claude AI as:
 
@@ -19,9 +18,9 @@ Hands-On Practice: Every skill is practiced multiple times before integration
 Active Problem Solving: I write the code myself - no copy-paste learning
 Verification & Feedback: Solutions are reviewed to ensure understanding
 
-📚 Topics Covered
-Module 1: NumPy Fundamentals
-Skills Learned:
+# 📚 Topics Covered
+# Module 1: NumPy Fundamentals
+Skills Covered:
 
 Array creation and manipulation
 Statistical operations (mean, std, sum)
@@ -29,15 +28,15 @@ Array indexing and slicing
 Broadcasting and vectorization
 Data standardization (z-score normalization)
 
-Exercises Completed:
+Exercises:
 
-✅ Exercise 1.1: Basic NumPy operations on customer data
-✅ Exercise 1.2: Data standardization implementation
+Exercise 1.1: Basic NumPy operations on customer data
+Exercise 1.2: Data standardization implementation
 
 Key Takeaway: NumPy is the foundation for numerical computing in Python and essential for understanding how data flows through ML models.
 
-Module 2: Pandas for Data Manipulation
-Skills Learning:
+# Module 2: Pandas for Data Manipulation
+Skills Covered:
 
 DataFrame creation and manipulation
 Data selection and filtering (boolean indexing)
@@ -54,8 +53,8 @@ Exercise 2.3: Advanced aggregations and transformations
 
 Key Takeaway: Pandas is the workhorse of data analysis - master groupby and merge operations for real-world data tasks.
 
-Module 3: SQL Database Integration
-Skills to Learn:
+# Module 3: SQL Database Integration
+Skills Covered:
 
 SQLite database creation and management
 Writing SELECT queries with WHERE clauses
@@ -72,8 +71,8 @@ Exercise 3.3: SQL aggregations and subqueries
 
 Key Takeaway: SQL is essential for data analysis. Even with Pandas, SQL knowledge makes you more versatile and valuable.
 
-Module 4: Data Visualization
-Skills to Learn:
+# Module 4: Data Visualization
+Skills Covered:
 
 Matplotlib basics (line plots, scatter plots, bar charts)
 Seaborn for statistical visualizations
@@ -89,8 +88,8 @@ Exercise 4.3: Interactive plot customization
 
 Key Takeaway: Good visualizations communicate insights effectively. Learn to choose the right chart for your data story.
 
-Module 5: Machine Learning with Scikit-learn
-Skills to Learn:
+# Module 5: Machine Learning with Scikit-learn
+Skills Covered:
 
 Data preprocessing with StandardScaler
 K-Means clustering algorithm
@@ -107,8 +106,8 @@ Exercise 5.3: Elbow method for optimal cluster selection
 
 Key Takeaway: Unsupervised learning reveals hidden patterns in data. Clustering and PCA are fundamental tools for exploratory analysis.
 
-Module 6: Neural Networks with PyTorch
-Skills to Learn:
+# Module 6: Neural Networks with PyTorch
+Skills Covered:
 
 PyTorch tensor operations
 Building custom neural network architectures
@@ -126,7 +125,7 @@ Exercise 6.3: Training loop optimization and evaluation
 
 Key Takeaway: Deep learning with PyTorch provides powerful tools for complex predictions. Understanding the training loop is fundamental.
 
-Module 7: Final Integration Project
+# Module 7: Final Integration Project
 Comprehensive Application:
 Combining all learned skills into a professional data science project:
 
@@ -153,7 +152,7 @@ By the end of this journey, I will be able to:
 ✅ Write clean, documented, professional code
 ✅ Explain my methodology and results
 
-📂 Repository Structure
+# 📂 Repository Structure
 data-science-learning/
 │
 ├── README.md                          # This file
