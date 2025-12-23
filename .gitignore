@@ -46,3 +46,19 @@ Thumbs.db
 .env
 .env.local
 
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Visualization outputs
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# PyTorch models
+*.pt
+*.pth
+*.ckpt
