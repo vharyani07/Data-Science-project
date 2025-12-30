@@ -20,7 +20,7 @@ fig, axes = plt.subplots(2, 2, figsize=(14, 10))
 
 # TODO: Plot 1 - Line plot: revenue over time
 # Use seaborn lineplot
-# Your code here
+sns.lineplot(data=transactions, x='date', y='revenue', ax=axes[0, 0])
 
 axes[0, 0].set_title('Revenue Over Time')
 axes[0, 0].set_xlabel('Date')
@@ -29,22 +29,21 @@ axes[0, 0].tick_params(axis='x', rotation=45)
 
 # TODO: Plot 2 - Violin plot: revenue by category
 # Use seaborn violinplot
-# Your code here
+sns.violinplot(data=transactions, x='category', y='revenue', ax=axes[0, 1])
 
 axes[0, 1].set_title('Revenue Distribution by Category')
 axes[0, 1].set_xlabel('Category')
-axes[0, 1].set_ylabel('Revenue ($)')
+axes[0, 1].set_ylabel('Revenue ($}')
 
 # TODO: Plot 3 - Heatmap: average revenue by category and region
-pivot_table = # Your code here (use pivot_table)
-# Use seaborn heatmap
-# Your code here
+pivot_table = transactions.pivot_table(values='revenue', index='category', columns='region', aggfunc='mean')
+sns.heatmap(pivot_table, annot=True, cmap='YlGnBu', fmt='.0f', ax=axes[1, 0])
 
 axes[1, 0].set_title('Average Revenue by Category and Region')
 
 # TODO: Plot 4 - Count plot: transactions by region
 # Use seaborn countplot
-# Your code here
+sns.countplot(data=transactions, x='region', ax=axes[1, 1])
 
 axes[1, 1].set_title('Transaction Count by Region')
 axes[1, 1].set_xlabel('Region')

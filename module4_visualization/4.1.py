@@ -22,14 +22,14 @@ print(customers.head())
 fig, axes = plt.subplots(2, 2, figsize=(12, 10))
 
 # TODO: Plot 1 (Top-left) - Histogram of ages
-axes[0, 0].hist(data, bins=20, color='steelblue', edgecolor='black')
+axes[0, 0].hist(customers['age'], bins=20, color='steelblue', edgecolor='black')
 
 axes[0, 0].set_xlabel('Age')
 axes[0, 0].set_ylabel('Frequency')
 axes[0, 0].set_title('Distribution of Customer Ages')
 
 # TODO: Plot 2 (Top-right) - Scatter plot: age vs total_spent
-axes[0, 1].scatter(x, y, alpha=0.6)
+axes[0, 1].scatter(customers['age'], customers['total_spent'], alpha=0.6)
 
 
 axes[0, 1].set_xlabel('Age')
@@ -39,7 +39,7 @@ axes[0, 1].set_title('Age vs Total Spending')
 # TODO: Plot 3 (Bottom-left) - Bar chart: average spending by segment
 # First calculate the average
 avg_by_segment = customers.groupby('segment')['total_spent'].mean()
-axes[1, 0].bar(...)
+axes[1, 0].bar(avg_by_segment.index, avg_by_segment.values)
 
 axes[1, 0].set_xlabel('Customer Segment')
 axes[1, 0].set_ylabel('Average Spending ($)')

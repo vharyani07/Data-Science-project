@@ -18,7 +18,9 @@ fig, axes = plt.subplots(2, 1, figsize=(12, 10))
 # Plot sales_2023, sales_2024, and target on the same axis
 x = np.arange(len(sales_data['month']))
 
-# Your code here for plotting 3 lines
+axes[0].plot(x, sales_data['sales_2023'], label='2023')
+axes[0].plot(x, sales_data['sales_2024'], label='2024')
+axes[0].plot(x, sales_data['target'], label='Target')
 
 axes[0].set_xlabel('Month', fontsize=12)
 axes[0].set_ylabel('Sales ($)', fontsize=12)
@@ -30,7 +32,8 @@ axes[0].grid(True, alpha=0.3, linestyle='--')
 
 # TODO: Plot 2 - Grouped bar chart
 width = 0.35
-# Your code here for two sets of bars (2023 and 2024)
+axes[1].bar(x - width/2, sales_data['sales_2023'], width, label='2023')
+axes[1].bar(x + width/2, sales_data['sales_2024'], width, label='2024')
 
 axes[1].set_xlabel('Month', fontsize=12)
 axes[1].set_ylabel('Sales ($)', fontsize=12)
@@ -45,6 +48,6 @@ plt.savefig('advanced_plots.png', dpi=300, bbox_inches='tight')
 plt.show()
 
 # TODO: Calculate and print year-over-year growth
-growth = # Your code here
+growth = sales_data['sales_2024'].mean() / sales_data['sales_2023'].mean() - 1
 print("\nYear-over-Year Growth:")
 print(growth)
