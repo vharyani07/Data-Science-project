@@ -1,0 +1,32 @@
+-- Basic SELECT
+SELECT column1, column2 FROM table;
+
+-- WHERE (filtering)
+SELECT * FROM table WHERE age > 30;
+
+-- Aggregations
+SELECT city, COUNT(*), AVG(age) FROM customers GROUP BY city;
+
+-- JOINs
+SELECT * FROM table1 
+JOIN table2 ON table1.id = table2.id;
+
+-- LEFT JOIN (keep all from left table)
+SELECT * FROM table1 
+LEFT JOIN table2 ON table1.id = table2.id;
+
+-- ORDER BY
+SELECT * FROM table ORDER BY column DESC;
+
+-- LIMIT
+SELECT * FROM table LIMIT 10;
+
+-- Declarative language (what you want, not how you do it)
+Give me:
+  - c.name
+  - c.city
+  - o.total_amount
+From:
+  - customers
+Joined with:
+  - this subquery
